@@ -22,20 +22,20 @@
 
 #include <linux/kthread.h>
 
-#define MAX_INTENSITY			7000
+#define MAX_INTENSITY			10000
 #define PACKET_MAX_SIZE		1000
 #define MULTI_FREQ_DIVIDER		78125000 /* 1s/128(pdiv)=7812500 */
 
 #define HAPTIC_ENGINE_FREQ_MIN		1200
-#define HAPTIC_ENGINE_FREQ_MAX		2500
+#define HAPTIC_ENGINE_FREQ_MAX		3500
 
 #define VIB_BUFSIZE                     30
 
 #define BOOST_ON                        1
 #define BOOST_OFF                       0
 
-#define HOMEKEY_PRESS_FREQ		4
-#define HOMEKEY_RELEASE_FREQ		5
+#define HOMEKEY_PRESS_FREQ		5
+#define HOMEKEY_RELEASE_FREQ		6
 #define HOMEKEY_DURATION			7
 
 struct vib_packet {
